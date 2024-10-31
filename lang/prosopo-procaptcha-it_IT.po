@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prosopo ProCaptcha 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/prosopo-procaptcha\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-10-09T12:21:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: prosopo-procaptcha\n"
+
+#. Description of the plugin
+#: prosopo-procaptcha.php
+#: templates/settings-page.php:87
+msgid "GDPR compliant, privacy friendly and better value captcha."
+msgstr "Conforme al GDPR, rispettoso della privacy e captcha con migliore rapporto qualità-prezzo."
+
+#. Author of the plugin
+#: prosopo-procaptcha.php
+msgid "Prosopo Team"
+msgstr "Team Prosopo"
+
+#. Author URI of the plugin
+#: prosopo-procaptcha.php
+msgid "https://prosopo.io/"
+msgstr "https://prosopo.io/"
+
+#: src/Pro_Captcha.php:64
+msgid "Please verify that you are human."
+msgstr "Si prega di verificare che siate umani."
+
+#: src/Settings_Page.php:165
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: templates/settings-page.php:43
+msgid "Protect the login form:"
+msgstr "Proteggi il modulo di accesso:"
+
+#: templates/settings-page.php:48
+msgid "Protect the register form:"
+msgstr "Proteggi il modulo di registrazione:"
+
+#: templates/settings-page.php:53
+msgid "Protect the lost password form:"
+msgstr "Proteggi il modulo di recupero password:"
+
+#: templates/settings-page.php:58
+msgid "Protect the comment form:"
+msgstr "Proteggi il modulo di commento:"
+
+#: templates/settings-page.php:63
+msgid "Protect the post/page password form:"
+msgstr "Proteggi il modulo di protezione con password per post/pagina:"
+
+#: templates/settings-page.php:79
+msgid "Visit website"
+msgstr "Visita il sito web"
+
+#: templates/settings-page.php:111
+msgid "Your Site Key:"
+msgstr "La tua chiave del sito:"
+
+#: templates/settings-page.php:115
+msgid "Site Key"
+msgstr "Chiave del sito"
+
+#: templates/settings-page.php:124
+msgid "Your Secret Key:"
+msgstr "La tua chiave segreta:"
+
+#: templates/settings-page.php:128
+msgid "Secret Key"
+msgstr "Chiave segreta"
+
+#: templates/settings-page.php:199
+msgid "Save"
+msgstr "Salva"
+
+#: templates/settings-page.php:213
+msgid "Preview: if the credentials are valid, you should be able to complete the captcha below:"
+msgstr "Anteprima: se le credenziali sono valide, dovresti essere in grado di completare il captcha qui sotto:"
+
+#. Plugin Name of the plugin
+#: prosopo-procaptcha.php
+#: templates/settings-page.php:75
+msgid "Prosopo Procaptcha"
+msgstr "Prosopo Procaptcha"
+
+#: src/Settings_Page.php:148
+msgid "Procaptcha Settings"
+msgstr "Impostazioni di Procaptcha"
+
+#: src/Settings_Page.php:149
+msgid "Procaptcha"
+msgstr "Procaptcha"
+
+#: templates/settings-page.php:168
+msgid "WordPress integration"
+msgstr "Integrazione con WordPress"
+
+#: src/Pro_Captcha.php:246
+msgid "Light"
+msgstr "Chiaro"
+
+#: src/Pro_Captcha.php:247
+msgid "Dark"
+msgstr "Scuro"
+
+#: src/Pro_Captcha.php:256
+msgid "Frictionless"
+msgstr "Senza attrito"
+
+#: src/Pro_Captcha.php:257
+msgid "Pow"
+msgstr "Pow"
+
+#: src/Pro_Captcha.php:258
+msgid "Image"
+msgstr "Immagine"
+
+#: templates/settings-page.php:28
+msgid "Theme:"
+msgstr "Tema:"
+
+#: templates/settings-page.php:34
+msgid "Type:"
+msgstr "Tipo:"
+
+#: templates/settings-page.php:98
+msgid "Settings successfully saved."
+msgstr "Impostazioni salvate con successo."
+
+#: templates/settings-page.php:134
+msgid "Style preferences"
+msgstr "Preferenze di stile"

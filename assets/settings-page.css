@@ -1,0 +1,109 @@
+.prosopo-captcha-settings {
+    font-size: 14px;
+
+    .prosopo-captcha-settings__head {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .prosopo-captcha-settings__link {
+        font-size: 13px;
+    }
+
+    .prosopo-captcha-settings__description {
+        margin: 15px 0 0;
+    }
+
+    .prosopo-captcha-settings__message {
+        color: green;
+        margin: 20px 0 0;
+    }
+
+    .prosopo-captcha-settings__container {
+        display: flex;
+        gap: 50px;
+        margin: 50px 0 0;
+    }
+
+    .prosopo-captcha-settings__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .prosopo-captcha-settings__row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .prosopo-captcha-settings__section-title {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .prosopo-captcha-settings__label {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .prosopo-captcha-settings__input {
+        width: 250px;
+        padding: 2px 8px !important;
+    }
+
+    .prosopo-captcha-settings__checkbox {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .prosopo-captcha-settings__switcher {
+        position: relative;
+        display: inline-block;
+        width: 55px;
+        height: 30px;
+    }
+
+    .prosopo-captcha-settings__toggle {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #ccc;
+        transition: .4s;
+        border-radius: 34px;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 20px;
+            width: 20px;
+            left: 6px;
+            bottom: 5px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+    }
+
+    .prosopo-captcha-settings__checkbox:checked + .prosopo-captcha-settings__toggle {
+        background-color: #2196F3;
+    }
+
+    input:checked + .prosopo-captcha-settings__toggle::before {
+        transform: translateX(23px);
+    }
+
+    .prosopo-captcha-settings__status {
+        max-width: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 0 0 50px;
+    }
+}
